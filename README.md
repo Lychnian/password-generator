@@ -4,6 +4,7 @@
 ## Description
 
 The Random Password Generator is a JavaScript application designed to enhance your online security. It can do this by generating a strong and unique password for the user. You can create a highly secure password according to your preference with just a click of a button! The generator allows you to specify the length of your password from 8 to 128 characters, choose if you desire lowercase letters, uppercase letters, numbers and symbols. You can boost your digital security effortlessly with this application.
+![strong-passwords](https://github.com/Lychnian/password-generator/assets/140586279/468012b9-84ea-40eb-ad45-57940f0eda95)
 
 
 ## Installation
@@ -34,6 +35,7 @@ To use the Random Password Generator visit https://lychnian.github.io/password-g
 With the Random Password Generator, you can ensure that your online accounts remain protected with strong and unique passwords, enhancing your overall digital security.
 
 Below you will find an image of the Random Password Generator page.
+![javascript-homework-demo](https://github.com/Lychnian/password-generator/assets/140586279/e9d72c0c-e4f3-4571-b63f-2d6b372e0999)
 
 
 ## Credits
