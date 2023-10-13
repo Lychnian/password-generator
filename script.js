@@ -12,10 +12,11 @@ function writePassword() {
   var uppercaseChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericChar = "0123456789";
   var specialChar = "!@#$%^&*()-_=+";
+  var chosenChar = "";
 
 // Prompt user to choose if they want lower case, upper case, numeric, and/or special characters in their password.
 
-  var charLength = parseInt(prompt ("Please enter a number between 8 to 128 for your desired password length."));
+  var charLength = parseInt(prompt("Please enter a number between 8 to 128 for your desired password length."));
 
   if (charLength <8 || charLength > 128 || isNaN(charLength)) {
     alert("Start again. Please enter a number between 8 and 128 for your password length.");
@@ -23,8 +24,8 @@ function writePassword() {
 
   }
 
-/* Prompt user for Password Character preferences with if conditionall statements which will then concatenate
-   the users choice to chosenChar string and store it for the generating password process. */
+/* Prompt user for Password Character preferences with if conditional statements which will then concatenate
+   the user's choice to chosenChar string and store it for the generating password process. */
 
   if (confirm("Do you want to include lowercase letters in your password? Please select OK for YES or CANCEL for NO.")) {
     chosenChar += lowcaseChar;
@@ -77,5 +78,3 @@ based on user's choice of characters will display. */
     passwordText.value = password;
   
   });
-  
-
