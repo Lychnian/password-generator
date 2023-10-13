@@ -52,7 +52,7 @@ JavaScript For Loop code to generate random characters and Math.floor(Math.rando
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
 https://css-tricks.com/lots-of-ways-to-use-math-random-in-javascript/
 
-Image of password unlocked: https://www.lookout.com/life/blog/password-best-practices
+Image Strong Passwords Protect You: https://santiamcommunications.com/strong-passwords-protect-you/
 
 
 ## License
