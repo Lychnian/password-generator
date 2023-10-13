@@ -54,8 +54,19 @@ function writePassword() {
     
   }
 
+// For loop repeats until criteria met, and Math.floor and Math.random to generate random password.
 
+  var password = "";
+  
+  for (var i = 0; i < charLength; i++) {
+    var randomIndex = Math.floor(Math.random() * chosenChar.length);
+    password += chosenChar[randomIndex];
 
+  }
 
+  return password;
 
 }  
+
+
+
