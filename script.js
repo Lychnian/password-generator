@@ -68,5 +68,14 @@ function writePassword() {
 
 }  
 
+/* Upon user's click on Generate Password Button, functions to generate password executed, and the random value 
+based on user's choice of characters will display. */
 
+  generateBtn.addEventListener("click", function() {
+    var password = writePassword();
+    var passwordText = document.querySelector("#password");
+    passwordText.value = password;
+  
+  });
+  
 
